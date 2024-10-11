@@ -1,25 +1,76 @@
-## AWS Amplify React+Vite Starter Template
+# Hamster Kombat Clone
 
-This repository provides a starter template for creating applications using React+Vite and AWS Amplify, emphasizing easy setup for authentication, API, and database capabilities.
+This repository contains the initial setup and the final version of the Hamster Kombat clone project, including the basic project structure, necessary images, and icons.
 
 ## Overview
 
-This template equips you with a foundational React application integrated with AWS Amplify, streamlined for scalability and performance. It is ideal for developers looking to jumpstart their project with pre-configured AWS services like Cognito, AppSync, and DynamoDB.
+This project is a clone of the popular Telegram mini app, Hamster Kombat. The repository provides two branches:
 
-## Features
+1. **Initial Setup**: Provides the foundational structure and assets needed to build the full application.
+2. **Final Version**: The completed application with all functionalities.
 
-- **Authentication**: Setup with Amazon Cognito for secure user authentication.
-- **API**: Ready-to-use GraphQL endpoint with AWS AppSync.
-- **Database**: Real-time database powered by Amazon DynamoDB.
+## Getting Started
 
-## Deploying to AWS
+To get started with either the initial setup or the final version, follow these instructions:
 
-For detailed instructions on deploying your application, refer to the [deployment section](https://docs.amplify.aws/react/start/quickstart/#deploy-a-fullstack-app-to-aws) of our documentation.
+### Cloning the Repository
 
-## Security
+1. **Clone the Repository**:
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+    ```bash
+    git clone https://github.com/nikandr-surkov/Hamster-Kombat-Telegram-Mini-App-Clone.git
+    cd Hamster-Kombat-Telegram-Mini-App-Clone
+    ```
 
-## License
+### Initial Setup
 
-This library is licensed under the MIT-0 License. See the LICENSE file.
+2. **Switch to the `initial-setup` Branch**:
+
+    ```bash
+    git checkout initial-setup
+    ```
+
+3. **Install Dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+4. **Run the Development Server**:
+
+    ```bash
+    npm run dev
+    ```
+
+5. **Open Your Browser**:
+
+    Navigate to localhost to see the initial setup.
+
+### Final Version
+
+2. **Switch to the `final-version` Branch**:
+
+    ```bash
+    git checkout final-version
+    ```
+
+3. **Install Dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+4. **Run the Development Server**:
+
+    ```bash
+    npm run dev
+    ```
+
+5. **Open Your Browser**:
+
+    Navigate to localhost to see the final version of the application.
+
+## Contact
+
+For any inquiries, please contact me in Telegram: [Nikandr Surkov](https://t.me/nikandr_s).
+
